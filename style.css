@@ -1,0 +1,221 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#taskli{
+    font-size: 40px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+#addbutton{
+    display: flex;
+    font-size: 30px;
+    margin-left: 20%;
+    padding-top: 10px;
+}
+.container1{
+    display: flex;
+    margin: 10% 0px 0px 20%;
+}
+.container2{
+    display: inline-flex;
+    padding:50px 0 0 200px;
+    margin-left: 50px;
+}
+.card{
+    border: 1px solid red;
+    border-radius: 10px;
+    width: 150px;
+    height: 270px;
+    margin: 0 0 0 50px;
+    padding: 20px 0 0 20px;
+    box-shadow:5px 5px 5px darkgrey;
+    font-size: 20px;
+}
+.line{
+    border: 1px solid black;
+    width: 30%;
+    top: 6.5;
+    height: 0px;
+    position: absolute;
+}
+.paris{
+    font-size: 50px;
+    font-weight: 600;
+    background-color: #fff;
+    position: absolute;
+    left: 40%;
+    top: 6.5%;
+}
+.no-padding{
+    margin: 0;
+    padding: 0;
+}
+.container3{
+    padding: 5% 35% 0 35%;
+    display: flex;
+}
+.container3 span{
+    position: absolute;
+    top: 0%;
+    left: 40%;
+    background: #fff;
+    font-size: 50px;
+    font-weight: 600;
+    padding: 3% 20px 0 20px;
+}
+.backbutton{
+    margin: 70px 0 0 45%;
+    font-size: 40px;
+    display: flex;
+}
+.backbutton span{
+    padding: 0 0 0 10px;
+}
+.cardp{
+    border: 1px solid red;
+    display: inline-block;
+    border-radius: 5px;
+    width: 20%;
+    height: 340px;
+    margin: 4% 0 0 36%;
+    padding: 10px 0 0 100px;
+    line-height: 2;
+    font-size: 25px;
+    color: red;
+    box-shadow:5px 5px 5px darkgrey;
+}
+.blur1{
+    filter: blur(8px);
+}
+.additem1{
+    position:absolute;
+    top: 35%;
+    left: 35%;
+    z-index: 5;
+    border: 1px solid red;
+    border-radius: 5px;
+    width: 30%;
+    height: 200px;
+    text-align: center;
+    color: red;
+    box-shadow: 5px 5px 5px darkgray;
+    background: white;
+    padding: 30px 20px 20px 20px;
+    font-size: 25px;
+}
+#additem{
+    box-shadow: 5px 5px 5px darkgray;
+    border-radius: 5px;
+    border: 1px solid red;
+    width: 60%;
+    height: 50px;
+    font-size: 30px;
+}
+#addbutton1{
+    border:1px solid red;
+    border-radius: 10px;
+    background: red;
+    color: white;
+    display: inline-block;
+    width: 100px;
+}
+#additem2{
+    box-shadow: 5px 5px 5px darkgray;
+    border-radius: 5px;
+    border: 1px solid red;
+    width: 60%;
+    height: 50px;
+    font-size: 30px;
+}
+#addbutton2{
+    border:1px solid red;
+    border-radius: 10px;
+    background: red;
+    color: white;
+    display: inline-block;
+    width: 100px;
+}
+.addbuttonparis{
+    position: relative;
+    left: 50%;
+    top: 30%;
+}
+.goback2{
+    position: absolute;
+    left: 49%;
+}
+@media screen and (max-width: 1000px){
+    #taskli{
+        position: absolute;
+        top: 5%;
+        left: 5%;
+    }
+    #addbutton{
+        position: absolute;
+        top: 5%;
+        right: 5%;
+    }
+    .text{
+        display: none;
+    }
+    .container2{
+        display: block;
+        margin-left: 25%;
+        padding-left: 0;
+    }
+    .card{
+        margin-top: 10%;
+        height: 50px;
+        overflow: hidden;
+    }
+    .container3{
+        position: absolute;
+        top: 1%;
+        left: 0%;
+        width: 100%;
+        overflow: visible;
+    }
+    .line{
+        display: none;
+    }
+    .back{
+        display: none;
+    }
+    .paris{
+        position: absolute;
+        top: 100%;
+        left: 15%;
+        font-size: 30px;
+    }
+    .backbutton{
+        position: absolute;
+        left: -40%;
+        top: -5%;
+    }
+    .cardp{
+        position: absolute;
+        top: 20%;
+        left: -10%;
+        overflow: hidden;
+        width: 200px;
+        height: 400px;
+        padding-left: 10%;
+    }
+    .addbuttonparis{
+        position: absolute;
+        top: 80%;
+        left: 70%;
+    }
+    .additem1{
+        position: absolute;
+        left: 5%;
+        width: 80%;
+        height: 150px;
+        line-height: 0.9;
+    }
+    .goback2{
+        position: absolute;
+        top: 5%;
+        left: 5%;
+    }
+}
